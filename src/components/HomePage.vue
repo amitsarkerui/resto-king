@@ -2,10 +2,21 @@
   <div>
     <Navbar></Navbar>
     <div class="cards container">
-      <div class="card" v-for="restaurant in restaurants" :key="restaurant.id">
+      <div
+        class="card"
+        style="display: flex; flex-direction: column"
+        v-for="restaurant in restaurants"
+        :key="restaurant.id"
+      >
         <h4>{{ restaurant.name }}</h4>
         <p>Address : {{ restaurant.address }}</p>
         <p>Call : {{ restaurant.phone }}</p>
+        <p style="flex-grow: 1"></p>
+        <router-link :to="'/Update-Restaurant/' + restaurant.id"
+          ><button style="margin-top: 20px" class="btn-update">
+            Update
+          </button></router-link
+        >
       </div>
     </div>
   </div>

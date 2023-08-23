@@ -4,7 +4,7 @@
       <li><router-link to="/">Home</router-link></li>
       <li><router-link to="/Add-Restaurant">Add Restaurant</router-link></li>
       <li>
-        <router-link to="/Update-Restaurant">Update Restaurant</router-link>
+        <router-link to="">Contact</router-link>
       </li>
       <li><a @click="logout">Log Out</a></li>
       <li class="slider"></li>

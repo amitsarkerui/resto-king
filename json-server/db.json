@@ -75,9 +75,9 @@
       "id": 1
     },
     {
-      "name": "Pizza Hut",
-      "address": "Dhaka, Bangladesh",
-      "phone": "+8801712345678",
+      "name": "Pizza Hut Bazerss",
+      "address": "Dhaka, Bangladesh and Jessore",
+      "phone": "+88017123456786",
       "id": 2
     },
     {
@@ -87,13 +87,13 @@
       "id": 3
     },
     {
-      "name": "Sushi Haven",
+      "name": "Sushi Haven Dise",
       "address": "Khulna, Bangladesh",
       "phone": "+8801912345678",
       "id": 4
     },
     {
-      "name": "Tandoori Bites",
+      "name": "Tandoori Bitess",
       "address": "Rajshahi, Bangladesh",
       "phone": "+8801512345678",
       "id": 5
@@ -129,7 +129,7 @@
       "id": 10
     },
     {
-      "name": "Cox's Center",
+      "name": "Cox's bazer Center ",
       "address": "cox's bazer",
       "phone": "123456",
       "id": 11

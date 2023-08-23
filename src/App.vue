@@ -47,4 +47,13 @@ body {
   border: none;
   cursor: pointer;
 }
+.btn-update {
+  width: 100%;
+  padding: 10px 10px;
+  background-color: #2c3e50;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
 </style>
