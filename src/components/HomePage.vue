@@ -17,6 +17,13 @@
             Update
           </button></router-link
         >
+        <button
+          @click="deleteRestaurant(restaurant.id)"
+          style="margin-top: 8px; background-color: #b63a3a; color: white"
+          class="btn-update"
+        >
+          Delete
+        </button>
       </div>
     </div>
   </div>
@@ -35,15 +42,29 @@ export default {
   components: {
     Navbar,
   },
+  methods: {
+    async deleteRestaurant(id) {
+      const result = await axios.delete(
+        `http://localhost:3000/restaurants/${id}`
+      );
+      // console.log(result);
+      if (result.status == 200) {
+        this.loadData();
+      }
+    },
+    async loadData() {
+      let user = localStorage.getItem("userInfo");
+      if (!user) {
+        this.$router.push({ name: "SignUp" });
+      }
+      const result = await axios.get("http://localhost:3000/restaurants");
+      // console.log(result);
+      this.restaurants = result.data;
+      console.log("res", this.restaurants);
+    },
+  },
   async mounted() {
-    let user = localStorage.getItem("userInfo");
-    if (!user) {
-      this.$router.push({ name: "SignUp" });
-    }
-    const result = await axios.get("http://localhost:3000/restaurants");
-    // console.log(result);
-    this.restaurants = result.data;
-    console.log("res", this.restaurants);
+    this.loadData();
   },
 };
 </script>
