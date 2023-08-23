@@ -121,6 +121,18 @@
       "address": "Narayanganj, Bangladesh",
       "phone": "+8801612345678",
       "id": 9
+    },
+    {
+      "name": "KFC ",
+      "address": "Kader er mor",
+      "phone": "123456",
+      "id": 10
+    },
+    {
+      "name": "Cox's Center",
+      "address": "cox's bazer",
+      "phone": "123456",
+      "id": 11
     }
   ]
 }

@@ -4,6 +4,8 @@
     <div class="cards container">
       <div class="card" v-for="restaurant in restaurants" :key="restaurant.id">
         <h4>{{ restaurant.name }}</h4>
+        <p>Address : {{ restaurant.address }}</p>
+        <p>Call : {{ restaurant.phone }}</p>
       </div>
     </div>
   </div>
@@ -37,11 +39,14 @@ export default {
 
 <style scoped>
 .cards {
+  margin: 100px auto;
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
 .card {
   background-color: #f9f9f9;
+  padding: 16px;
+  border-radius: 10px;
 }
 </style>

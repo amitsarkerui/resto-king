@@ -1,10 +1,12 @@
 <template>
   <div>
     <ul class="menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Add Restaurant</a></li>
-      <li><a href="#">Update Restaurant</a></li>
-      <li><a @click="logout" href="#">Log Out</a></li>
+      <li><router-link to="/">Home</router-link></li>
+      <li><router-link to="/Add-Restaurant">Add Restaurant</router-link></li>
+      <li>
+        <router-link to="/Update-Restaurant">Update Restaurant</router-link>
+      </li>
+      <li><a @click="logout">Log Out</a></li>
       <li class="slider"></li>
     </ul>
   </div>
@@ -79,17 +81,17 @@ h1 {
   font-size: 18px;
   z-index: 9;
 }
-a.active {
+/* a.active {
   background-color: #e74c3c;
   pointer-events: none;
-}
+} */
 li.slider {
   width: 25%;
   height: 100%;
   position: absolute;
   left: 0;
   top: 0;
-  background-color: #e74c3c;
+  /* background-color: #e74c3c; */
   z-index: 8;
   transition: left 0.4s, background-color 0.4s;
 }

@@ -29,4 +29,22 @@ body {
   max-width: 1170px;
   margin: 0 auto;
 }
+.input-from {
+  padding: 10px 10px;
+  border-radius: 8px;
+  border: 1px solid #cacdd1;
+  display: block;
+  margin: 0 auto;
+  width: 350px;
+  margin-bottom: 15px;
+}
+.btn {
+  width: 364px;
+  padding: 10px 10px;
+  background-color: #2a100e;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
 </style>
