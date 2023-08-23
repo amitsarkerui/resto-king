@@ -1,0 +1,126 @@
+{
+  "users": [
+    {
+      "email": "a@text.com",
+      "name": "a",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "email": "aa@text.com",
+      "name": "ab",
+      "password": "123a",
+      "id": 2
+    },
+    {
+      "email": "AA@hja.cj",
+      "name": "aaa",
+      "password": "aaaa",
+      "id": 3
+    },
+    {
+      "email": "bc@g.b",
+      "name": "bc",
+      "password": "BC vai",
+      "id": 4
+    },
+    {
+      "email": "s@g.v",
+      "name": "f",
+      "password": "ssss",
+      "id": 5
+    },
+    {
+      "email": "d@j",
+      "name": "h",
+      "password": "dddd",
+      "id": 6
+    },
+    {
+      "email": "ssss@hh",
+      "name": "a",
+      "password": "aaaaa",
+      "id": 7
+    },
+    {
+      "email": "aaa@h",
+      "name": "ss",
+      "password": "aaaaa",
+      "id": 8
+    },
+    {
+      "email": "",
+      "name": "ss",
+      "password": "aaaaa",
+      "id": 9
+    },
+    {
+      "email": "kk@j",
+      "name": "kk",
+      "password": "123",
+      "id": 10
+    },
+    {
+      "email": "aaa@",
+      "name": "gs",
+      "password": "sss",
+      "id": 11
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Burger King",
+      "address": "Jashore, Bangladesh",
+      "phone": "+8801706385704",
+      "id": 1
+    },
+    {
+      "name": "Pizza Hut",
+      "address": "Dhaka, Bangladesh",
+      "phone": "+8801712345678",
+      "id": 2
+    },
+    {
+      "name": "Cafe Spice",
+      "address": "Chattogram, Bangladesh",
+      "phone": "+8801812345678",
+      "id": 3
+    },
+    {
+      "name": "Sushi Haven",
+      "address": "Khulna, Bangladesh",
+      "phone": "+8801912345678",
+      "id": 4
+    },
+    {
+      "name": "Tandoori Bites",
+      "address": "Rajshahi, Bangladesh",
+      "phone": "+8801512345678",
+      "id": 5
+    },
+    {
+      "name": "Pasta Paradise",
+      "address": "Sylhet, Bangladesh",
+      "phone": "+8801212345678",
+      "id": 6
+    },
+    {
+      "name": "Golden Wok",
+      "address": "Barisal, Bangladesh",
+      "phone": "+8801312345678",
+      "id": 7
+    },
+    {
+      "name": "BBQ Delight",
+      "address": "Comilla, Bangladesh",
+      "phone": "+8801412345678",
+      "id": 8
+    },
+    {
+      "name": "Veggie Haven",
+      "address": "Narayanganj, Bangladesh",
+      "phone": "+8801612345678",
+      "id": 9
+    }
+  ]
+}
